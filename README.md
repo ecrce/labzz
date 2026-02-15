@@ -1,7 +1,7 @@
-robocopy
-Get-ChildItem
-Compare-Object
-Get-Content
+Performed data acquisition and analysis using robocopy. 
+Compared /s and /e switch results. 
+Generated directory listings with Get-ChildItem. 
+Compared log outputs using Compare-Object.
 
 /e copied empty directories.
 /s excluded empty directories.
