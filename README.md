@@ -1,33 +1,11 @@
-Performed data acquisition and analysis using robocopy. 
-Compared /s and /e switch results. 
-Generated directory listings with Get-ChildItem. 
-Compared log outputs using Compare-Object.
+Import_1.bmp → Import_1a.jpg: Size reduced; slight quality loss and artifacts.
 
-/e copied empty directories.
-/s excluded empty directories.
-/e produced more entries.
-/s log shows fewer folders copied.
+Import_1a.jpg → Import_2a.bmp: Size increased; artifacts preserved.
 
--Force lists all files including hidden and system.
-/Hidden lists only hidden files.
-Force output is larger.
-Hidden output is a subset of Force results.
+finland.gif → finland2.jpg: Artifacts introduced from lossy compression.
 
+finland2.jpg → finland2.gif: Banding/dithering visible; quality reduced.
 
-E-switch folder contains empty directories.
-S-switch folder excludes empty directories.
-E-switch output shows more folders/files.
+Import_4.bmp → Import_4.gif: Size reduced; color depth loss.
 
-
-E-switch shows hidden files from empty directories.
-S-switch contains fewer hidden entries.
-E-switch results larger.
-
-
-Compare-Object shows differences between robocopy runs.
-/e log contains additional directory entries.
-/s log lacks empty directory records.
-Output confirms /e and /s produce different results.
-
-dir Project_04-1*
-
+Import_4.gif → Import_4a.bmp: Size increased; no quality recovery.
